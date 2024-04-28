@@ -18,3 +18,13 @@ C:\Users\ASUS\Desktop\TheDailyCowBoyLife\TheDailyCowBoyLife\obj\Debug\test.pdb
 C:\Users\ASUS\Desktop\TheDailyCowBoyLife\TheDailyCowBoyLife\bin\Debug\test.exe.config
 C:\Users\ASUS\Desktop\TheDailyCowBoyLife\TheDailyCowBoyLife\bin\Debug\test.exe
 C:\Users\ASUS\Desktop\TheDailyCowBoyLife\TheDailyCowBoyLife\bin\Debug\test.pdb
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\obj\Debug\TheDailyCowBoyLife.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\obj\Debug\test.Properties.Resources.resources
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\obj\Debug\TheDailyCowBoyLife.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\obj\Debug\TheDailyCowBoyLife.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\obj\Debug\test.exe
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\obj\Debug\test.pdb
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\bin\Debug\test.exe.config
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\bin\Debug\test.exe
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\bin\Debug\test.pdb
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\obj\Debug\test.BallModel.resources
