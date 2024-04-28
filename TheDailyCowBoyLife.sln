@@ -1,14 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34622.214
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheDailyCowBoyLife", "TheDailyCowBoyLife.csproj", "{DFE738A8-97C3-491E-9E7B-C27FBBC32254}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fonts", "Fonts", "{E1390ED2-96E8-4C81-A69E-616B21C95E15}"
-	ProjectSection(SolutionItems) = preProject
-		Fonts\BetterVCR.ttf = Fonts\BetterVCR.ttf
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheDailyCowBoyLife", "TheDailyCowBoyLife\TheDailyCowBoyLife.csproj", "{DFE738A8-97C3-491E-9E7B-C27FBBC32254}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C04021D1-ED86-49FC-970E-33AC8A530739}
+		SolutionGuid = {7ADC117C-8C55-41C7-940B-A313B5298683}
 	EndGlobalSection
 EndGlobal

@@ -106,25 +106,13 @@ namespace test
         public BallModel Model { get; set; }
         public BallController Controller { get; set; }
 
-        private PrivateFontCollection privateFonts = new PrivateFontCollection();
-
         public BallTrackingGame()
         {
             InitializeComponent();
             Model = new BallModel();
             Controller = new BallController(Model, this);
-            privateFonts.AddFontFile("Fonts/BetterVCR.ttf");
-
-            // Проверьте, был ли шрифт успешно загружен
-            if (privateFonts.Families.Length > 0)
-            {
-                Console.WriteLine("Шрифт успешно загружен!");
-            }
-            else
-            {
-                Console.WriteLine("Не удалось загрузить шрифт.");
-            }
         }
+
 
         protected override void OnPaint(PaintEventArgs e)
         {
@@ -133,13 +121,14 @@ namespace test
             e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             e.Graphics.FillEllipse(Brushes.Red, new Rectangle(new Point(Model.Center.X - Model.Size / 2, Model.Center.Y - Model.Size / 2), new Size(Model.Size, Model.Size)));
 
-            // Используйте загруженный шрифт
-            var font = new Font(privateFonts.Families[0], 16);
+            // рисуем оставшееся время по центру снизу
             string timeText = Model.TimeLeft.ToString(@"ss");
+            Font font = new Font("Better VCR", 16);
             SizeF textSize = e.Graphics.MeasureString(timeText, font);
             PointF location = new PointF((ClientSize.Width - textSize.Width) / 2, ClientSize.Height - textSize.Height);
             e.Graphics.DrawString(timeText, font, Brushes.Black, location);
         }
+
 
     }
 }
