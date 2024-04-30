@@ -36,9 +36,9 @@ C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\T
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\TheDailyCowBoyLife.exe
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\TheDailyCowBoyLife.pdb
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\TheDailyCowBoyLife.csproj.AssemblyReference.cache
-C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\test.BallModel.resources
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\TheDailyCowBoyLife.Properties.Resources.resources
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\TheDailyCowBoyLife.csproj.GenerateResource.cache
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\TheDailyCowBoyLife.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\TheDailyCowBoyLife.exe
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\TheDailyCowBoyLife.pdb
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\test.BallTrackingGame.resources

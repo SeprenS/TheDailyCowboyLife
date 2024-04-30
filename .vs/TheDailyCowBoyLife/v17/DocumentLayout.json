@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,12 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,9 +40,64 @@
               "RelativeDocumentMoniker": "TheDailyCowBoyLife\\Form1.cs",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Form1.cs",
               "RelativeToolTip": "TheDailyCowBoyLife\\Form1.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAH0AAAAsAAAA",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAYwIIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T13:57:09.01Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Program.cs",
+              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Program.cs",
+              "RelativeToolTip": "TheDailyCowBoyLife\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:35:45.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Form1.cs",
+              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "TheDailyCowBoyLife\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:33:35.484Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Form1.Designer.cs",
+              "RelativeToolTip": "TheDailyCowBoyLife\\Form1.Designer.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:33:18.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Form1.resx",
+              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\Form1.resx",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Form1.resx",
+              "RelativeToolTip": "TheDailyCowBoyLife\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-30T10:33:17.245Z",
               "EditorCaption": ""
             }
           ]
