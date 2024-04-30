@@ -42,3 +42,4 @@ C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\T
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\TheDailyCowBoyLife.exe
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\TheDailyCowBoyLife.pdb
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\test.BallTrackingGame.resources
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\Resources\background.jpg
