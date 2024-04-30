@@ -1,6 +1,6 @@
 ﻿namespace test
 {
-    partial class BallTrackingGame
+    partial class KillFlyGame
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -28,19 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.backgroundImage = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.backgroundImage)).BeginInit();
             this.SuspendLayout();
-            // 
-            // backgroundImage
-            // 
-            this.backgroundImage.Image = global::TheDailyCowBoyLife.Properties.Resources.background1;
-            this.backgroundImage.Location = new System.Drawing.Point(0, -1);
-            this.backgroundImage.Name = "backgroundImage";
-            this.backgroundImage.Size = new System.Drawing.Size(1024, 864);
-            this.backgroundImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.backgroundImage.TabIndex = 0;
-            this.backgroundImage.TabStop = false;
             // 
             // BallTrackingGame
             // 
@@ -48,19 +36,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.ClientSize = new System.Drawing.Size(1006, 817);
-            this.Controls.Add(this.backgroundImage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "BallTrackingGame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TheDailyCowBoyLife";
-            ((System.ComponentModel.ISupportInitialize)(this.backgroundImage)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox backgroundImage;
     }
 }
 

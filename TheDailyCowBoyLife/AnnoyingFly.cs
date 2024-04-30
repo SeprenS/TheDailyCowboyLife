@@ -1,52 +1,57 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Drawing.Text;
 
 namespace test
 {
-    public partial class BallTrackingGame : Form
+    public partial class KillFlyGame : Form
     {
-        public BallModel Model { get; set; }
-        public BallController Controller { get; set; }
+        public FlyModel Model { get; set; }
+        public FlyController Controller { get; set; }
+        private Image FlyImage;
+        private Bitmap BackgroundBitmap;
 
-        public BallTrackingGame()
+        public KillFlyGame()
         {
             InitializeComponent();
-            Model = new BallModel();
-            Controller = new BallController(Model, this);
+            Model = new FlyModel();
+            Controller = new FlyController(Model, this);
+            FlyImage = Image.FromFile("Resources/fly.png");
+            BackgroundBitmap = new Bitmap(Image.FromFile("Resources/background.jpg")); 
         }
-        // Модель
-        public class BallModel
+
+        public class FlyModel
         {
             public Point Center { get; set; }
             public int Size { get; set; }
             public bool IsGrowing { get; set; }
-            public TimeSpan TimeLeft { get; set; } // новое свойство для отслеживания оставшегося времени
-            public int Score { get; set; } // новое свойство для отслеживания очков
+            public TimeSpan TimeLeft { get; set; } 
+            public int Score { get; set; } 
             public int MaxSize = 50;
             public int MinSize = 1;
+            public Font GameFont { get; set; }
         }
 
-        // Контроллер
-        public class BallController
+        public class FlyController
         {
-            private BallModel ball;
-            private BallTrackingGame view;
+            private FlyModel fly;
+            private KillFlyGame view;
             private Random random = new Random();
             private Timer gameTimer;
             private Timer ballTimer;
             private DateTime startTime;
 
-            public BallController(BallModel ball, BallTrackingGame view)
+            public FlyController(FlyModel fly, KillFlyGame view)
             {
-                this.ball = ball;
+                this.fly = fly;
                 this.view = view;
-
-                ball.Center = GetRandomPosition();
-                ball.Size = 1;
-                ball.IsGrowing = true;
-                ball.TimeLeft = TimeSpan.FromMinutes(1); // устанавливаем начальное время
-                ball.Score = 0; // начальное количество очков
+                
+                fly.Center = GetRandomPosition();
+                fly.Size = 1;
+                fly.IsGrowing = true;
+                fly.TimeLeft = TimeSpan.FromMinutes(1); 
+                fly.Score = 0; 
 
                 startTime = DateTime.Now;
 
@@ -64,26 +69,25 @@ namespace test
                 ballTimer.Interval = 20;
                 ballTimer.Tick += (s, e) =>
                 {
-                    if (ball.IsGrowing)
+                    if (fly.IsGrowing)
                     {
-                        ball.Size++;
-                        if (ball.Size >= 50)
-                            ball.IsGrowing = false;
+                        fly.Size++;
+                        if (fly.Size >= 50)
+                            fly.IsGrowing = false;
                     }
                     else
                     {
-                        ball.Size = 1;
-                        ball.Center = GetRandomPosition();
-                        ball.IsGrowing = true;
+                        fly.Size = 1;
+                        fly.Center = GetRandomPosition();
+                        fly.IsGrowing = true;
                     }
 
                     var elapsed = DateTime.Now - startTime;
                     ballTimer.Interval = (int)(25 * (1 + elapsed.TotalSeconds / 60));
 
-                    // обновляем оставшееся время
-                    ball.TimeLeft = TimeSpan.FromMinutes(1) - elapsed;
-                    if (ball.TimeLeft < TimeSpan.Zero)
-                        ball.TimeLeft = TimeSpan.Zero;
+                    fly.TimeLeft = TimeSpan.FromMinutes(1) - elapsed;
+                    if (fly.TimeLeft < TimeSpan.Zero)
+                        fly.TimeLeft = TimeSpan.Zero;
 
                     view.Invalidate();
                 };
@@ -91,12 +95,12 @@ namespace test
 
                 view.MouseClick += (s, e) =>
                 {
-                    var ballRectangle = new Rectangle(new Point(ball.Center.X - ball.Size / 2, ball.Center.Y - ball.Size / 2), new Size(ball.Size, ball.Size));
-                    if (ballRectangle.Contains(e.Location))
+                    var flyRectangle = new Rectangle(new Point(fly.Center.X - fly.Size / 2, fly.Center.Y - fly.Size / 2), new Size(fly.Size, fly.Size));
+                    if (flyRectangle.Contains(e.Location))
                     {
-                        ball.Score += CalculateScore();
-                        ball.Size = 1;
-                        ball.Center = GetRandomPosition();
+                        fly.Score += CalculateScore();
+                        fly.Size = 1;
+                        fly.Center = GetRandomPosition();
                         view.Invalidate();
                     }
                 };
@@ -112,38 +116,34 @@ namespace test
             private int CalculateScore()
             {
 
-                int maxScore = 300;
-                int minScore = 50;
-                double scoreDecreaseRate = ball.Size / 50.0; // 50 - максимальный размер шарика
-                int score = maxScore - (int)(300 * scoreDecreaseRate);
-                return Math.Max(score, minScore); // гарантируем, что очки не опускаются ниже минимального значения
+                var maxScore = 300;
+                var minScore = 50;
+                var scoreDecreaseRate = fly.Size / (double)fly.MaxSize; 
+                var score = maxScore - (int)(300 * scoreDecreaseRate);
+                return Math.Max(score, minScore);
             }
-
-
-
-
         }
-
 
         protected override void OnPaint(PaintEventArgs e)
         {
             base.OnPaint(e);
-
+            this.DoubleBuffered = true;
             e.Graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            e.Graphics.FillEllipse(Brushes.Red, new Rectangle(new Point(Model.Center.X - Model.Size / 2, Model.Center.Y - Model.Size / 2), new Size(Model.Size, Model.Size)));
+            e.Graphics.DrawImage(BackgroundBitmap, 0, 0);
+            e.Graphics.DrawImage(FlyImage, new Rectangle(new Point(Model.Center.X - Model.Size / 2, Model.Center.Y - Model.Size / 2), new Size(Model.Size, Model.Size)));
+            var pfc = new PrivateFontCollection();
+            pfc.AddFontFile("Fonts/BetterVCR.ttf");
+            var font = new Font(pfc.Families[0], 16, FontStyle.Bold);
 
-            // рисуем оставшееся время по центру снизу
-            string timeText = Model.TimeLeft.ToString(@"ss");
-            Font font = new Font("Times New Roman", 16);
-            SizeF textSize = e.Graphics.MeasureString(timeText, font);
-            PointF location = new PointF((ClientSize.Width - textSize.Width) / 2, ClientSize.Height - textSize.Height);
-            e.Graphics.DrawString(timeText, font, Brushes.Black, location);
+            var timeText = Model.TimeLeft.ToString(@"ss");
+            var textSize = e.Graphics.MeasureString(timeText, font);
+            var location = new PointF((ClientSize.Width - textSize.Width) / 2, ClientSize.Height - textSize.Height);
+            e.Graphics.DrawString(timeText, font, Brushes.White, location);
 
-            // рисуем количество очков справа сверху
-            string scoreText = "Очки: " + Model.Score.ToString();
+            var scoreText = "Очки: " + Model.Score.ToString();
             textSize = e.Graphics.MeasureString(scoreText, font);
             location = new PointF(ClientSize.Width - textSize.Width, 0);
-            e.Graphics.DrawString(scoreText, font, Brushes.Black, location);
+            e.Graphics.DrawString(scoreText, font, Brushes.White, location);
         }
     }
 }

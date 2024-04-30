@@ -12,7 +12,7 @@ namespace test
             Application.SetCompatibleTextRenderingDefault(false);
 
 
-            Application.Run(new BallTrackingGame());
+            Application.Run(new KillFlyGame());
         }
     }
 }
