@@ -41,7 +41,10 @@ C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\T
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\TheDailyCowBoyLife.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\TheDailyCowBoyLife.exe
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\TheDailyCowBoyLife.pdb
-C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\test.BallTrackingGame.resources
-C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\Resources\background.jpg
-C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\Resources\fly.png
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\Fonts\BetterVCR.ttf
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\obj\Debug\test.MainForm.resources
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\KillFlyGame\Resources\Images\background.jpg
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\KillFlyGame\Resources\Images\fly.png
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\KillFlyGame\Resources\Sounds\flynoice.wav
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\KillFlyGame\Resources\Sounds\hit.wav
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\KillFlyGame\Resources\Sounds\miss.wav

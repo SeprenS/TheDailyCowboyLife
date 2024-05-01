@@ -1,6 +1,6 @@
 ﻿namespace test
 {
-    partial class KillFlyGame
+    partial class MainForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
