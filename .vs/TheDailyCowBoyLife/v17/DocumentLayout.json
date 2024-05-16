@@ -3,44 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\killflygame\\killflygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\killflygame\\killflygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\thedailycowboylife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\thedailycowboylife\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\thedailycowboylife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\thedailycowboylife\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\killflygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\killflygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\killflygame.controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\killflygame.controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|c:\\users\\asus\\documents\\github\\thedailycowboylife\\thedailycowboylife\\killflygame.model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\killflygame.model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\thedailycowboylife\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\thedailycowboylife\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\thedailycowboylife\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\thedailycowboylife\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\thedailycowboylife\\resources\\background.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\resources\\background.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\thedailycowboylife\\mainform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{DFE738A8-97C3-491E-9E7B-C27FBBC32254}|TheDailyCowBoyLife\\TheDailyCowBoyLife.csproj|solutionrelative:thedailycowboylife\\mainform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\thedailycowboylife\\resources\\background.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:thedailycowboylife\\resources\\background.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,17 +58,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\MainForm.cs",
               "RelativeDocumentMoniker": "TheDailyCowBoyLife\\MainForm.cs",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\MainForm.cs",
               "RelativeToolTip": "TheDailyCowBoyLife\\MainForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T13:57:09.01Z",
               "IsPinned": true,
@@ -68,53 +76,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Resources.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Properties\\Resources.Designer.cs",
-              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\Properties\\Resources.Designer.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Properties\\Resources.Designer.cs",
-              "RelativeToolTip": "TheDailyCowBoyLife\\Properties\\Resources.Designer.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "KillFlyGame.Controller.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\KillFlyGame.Controller.cs",
+              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\KillFlyGame.Controller.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\KillFlyGame.Controller.cs",
+              "RelativeToolTip": "TheDailyCowBoyLife\\KillFlyGame.Controller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T10:45:15.041Z",
+              "WhenOpened": "2024-05-16T07:24:02.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KillFlyGame.Model.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\KillFlyGame.Model.cs",
+              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\KillFlyGame.Model.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\KillFlyGame.Model.cs",
+              "RelativeToolTip": "TheDailyCowBoyLife\\KillFlyGame.Model.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:23:31.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Properties\\Resources.resx",
-              "RelativeToolTip": "TheDailyCowBoyLife\\Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-01T10:22:28.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Properties\\Resources.resx",
-              "RelativeToolTip": "TheDailyCowBoyLife\\Properties\\Resources.resx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAvwHcAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-01T10:21:18.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "KillFlyGame.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\KillFlyGame\\KillFlyGame.cs",
-              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\KillFlyGame\\KillFlyGame.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\KillFlyGame\\KillFlyGame.cs",
-              "RelativeToolTip": "TheDailyCowBoyLife\\KillFlyGame\\KillFlyGame.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAADMAAAAkAAAA",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\KillFlyGame.cs",
+              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\KillFlyGame.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\KillFlyGame.cs",
+              "RelativeToolTip": "TheDailyCowBoyLife\\KillFlyGame.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T09:19:14.31Z",
+              "WhenOpened": "2024-05-16T07:21:23.74Z",
               "EditorCaption": ""
             },
             {
@@ -127,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\MainForm.cs",
               "RelativeDocumentMoniker": "TheDailyCowBoyLife\\MainForm.cs",
@@ -139,20 +135,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Program.cs",
               "RelativeDocumentMoniker": "TheDailyCowBoyLife\\Program.cs",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Program.cs",
               "RelativeToolTip": "TheDailyCowBoyLife\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T10:35:45.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "TheDailyCowBoyLife\\Properties\\Resources.Designer.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T10:45:15.041Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Properties\\Resources.resx",
+              "RelativeToolTip": "TheDailyCowBoyLife\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-01T10:22:28.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "TheDailyCowBoyLife\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Properties\\Resources.resx",
+              "RelativeToolTip": "TheDailyCowBoyLife\\Properties\\Resources.resx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAvwHcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-01T10:21:18.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "TheDailyCowBoyLife\\MainForm.Designer.cs",
@@ -165,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "background.jpg - Bitmap [1024x1024, 24-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, JPG]",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\Resources\\background.jpg",
               "RelativeDocumentMoniker": "TheDailyCowBoyLife\\Resources\\background.jpg",
@@ -176,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MainForm.resx",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\TheDailyCowboyLife\\TheDailyCowBoyLife\\MainForm.resx",
               "RelativeDocumentMoniker": "TheDailyCowBoyLife\\MainForm.resx",

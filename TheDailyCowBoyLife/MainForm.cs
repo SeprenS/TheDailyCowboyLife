@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using System.Drawing.Text;
-using System.Reflection;
+using KillFlyGame;
 
-namespace test
+
+namespace TheDailyCowboyLife
 {
     public partial class MainForm : Form
     {
-        public KillFlyGame KillFlyGame { get; }
+        public KillFlyGame.KillFlyGame KillFlyGame { get; }
 
         public MainForm()
         {
             InitializeComponent();
-            KillFlyGame = new KillFlyGame(this);
+            KillFlyGame = new KillFlyGame.KillFlyGame(this);
             this.MouseClick += KillFlyGame.Controller.HandleMouseClick;
         }
 

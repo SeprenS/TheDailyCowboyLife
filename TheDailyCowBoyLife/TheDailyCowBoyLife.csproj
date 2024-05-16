@@ -48,7 +48,9 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KillFlyGame\KillFlyGame.cs" />
+    <Compile Include="KillFlyGame.cs" />
+    <Compile Include="KillFlyGame.Model.cs" />
+    <Compile Include="KillFlyGame.Controller.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,22 +92,21 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="KillFlyGame\Resources\Images\background.jpg">
+    <Content Include="Resources\Images\background.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="KillFlyGame\Resources\Images\fly.png">
+    <Content Include="Resources\Images\fly.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="KillFlyGame\Resources\Sounds\flynoice.wav">
+    <Content Include="Resources\Sounds\flynoice.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="KillFlyGame\Resources\Sounds\hit.wav">
+    <Content Include="Resources\Sounds\hit.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="KillFlyGame\Resources\Sounds\miss.wav">
+    <Content Include="Resources\Sounds\miss.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Resources\background.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

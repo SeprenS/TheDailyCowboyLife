@@ -1,4 +1,4 @@
-﻿namespace test
+﻿namespace TheDailyCowboyLife
 {
     partial class MainForm
     {
