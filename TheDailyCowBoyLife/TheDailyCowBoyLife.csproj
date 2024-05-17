@@ -127,7 +127,9 @@
     <Content Include="Resources\Sounds\hit.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\Sounds\mainmenusong.mp3" />
+    <Content Include="Resources\Sounds\mainmenusong.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\Sounds\miss.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -55,3 +55,4 @@ C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\R
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\Resources\Images\MainMenu\MainMenuBackground.jpg
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\Resources\Images\MainMenu\exitbutton.png
 C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\Resources\Images\MainMenu\startbutton.png
+C:\Users\ASUS\Documents\GitHub\TheDailyCowboyLife\TheDailyCowBoyLife\bin\Debug\Resources\Sounds\mainmenusong.mp3
