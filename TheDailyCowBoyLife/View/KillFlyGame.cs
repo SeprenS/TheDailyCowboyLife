@@ -21,19 +21,19 @@ namespace KillFlyGame
         public SoundPlayer MissSound;
         public MediaPlayer FlyNoice;
 
-
         public KillFlyGame(MainForm form)
         {
             mainForm = form;
-            Model = new FlyModel(); 
-            Controller = new FlyController(Model, form);
             FlyNoice = new MediaPlayer();
             FlyNoice.Open(new Uri("Resources/Sounds/flynoice.mp3", UriKind.Relative));
             FlyNoice.Volume = 0.4; FlyNoice.Play();
             MissSound = new SoundPlayer("Resources/Sounds/miss.wav");
             HitSound = new SoundPlayer("Resources/Sounds/hit.wav");
-            FlyImage = Image.FromFile("Resources/Images/fly.png");
-            BackgroundBitmap = new Bitmap(Image.FromFile("Resources/Images/background.jpg"));
+            FlyImage = Image.FromFile("Resources/Images/KillFlyGame/fly.png");
+            BackgroundBitmap = new Bitmap(Image.FromFile("Resources/Images/KillFlyGame/background.jpg"));
+
+            Model = new FlyModel();
+            Controller = new FlyController(Model, mainForm);
         }
 
         public void Draw(Graphics g)
@@ -42,7 +42,7 @@ namespace KillFlyGame
             g.DrawImage(BackgroundBitmap, 0, 0);
             g.DrawImage(FlyImage, new Rectangle(new Point(Model.Center.X - Model.Size / 2, Model.Center.Y - Model.Size / 2), new Size(Model.Size, Model.Size)));
             var pfc = new PrivateFontCollection();
-            pfc.AddFontFile("Fonts/BetterVCR.ttf");
+            pfc.AddFontFile("Resources/Fonts/BetterVCR.ttf");
             var font = new Font(pfc.Families[0], 16, FontStyle.Bold);
 
             var timeText = Model.TimeLeft.ToString(@"ss");
@@ -54,6 +54,16 @@ namespace KillFlyGame
             textSize = g.MeasureString(scoreText, font);
             location = new PointF(mainForm.ClientSize.Width - textSize.Width, 0);
             g.DrawString(scoreText, font, Brushes.White, location);
+        }
+
+        public void EndGame()
+        {
+            mainForm.Controls.Clear();
+            mainForm.MouseClick -= Controller.HandleMouseClick;
+
+            var menuView = new Menu.MainMenu(mainForm);
+            var menuController = new Menu.MainMenuController(mainForm, menuView);
+            mainForm.MouseClick += menuController.HandleMouseClick;
         }
     }
 }

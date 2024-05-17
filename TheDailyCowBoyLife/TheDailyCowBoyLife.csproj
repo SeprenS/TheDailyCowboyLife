@@ -48,18 +48,32 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KillFlyGame.cs" />
-    <Compile Include="KillFlyGame.Model.cs" />
-    <Compile Include="KillFlyGame.Controller.cs" />
-    <Compile Include="MainForm.cs">
+    <Compile Include="Controller\MainMenu.Controller.cs" />
+    <Compile Include="Controller\IObserver.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Model\MainMenu.Model.cs" />
+    <Compile Include="Model\IObservable.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="View\IMainMenuView.cs" />
+    <Compile Include="View\Menu.cs" />
+    <Compile Include="View\KillFlyGame.cs" />
+    <Compile Include="Model\KillFlyGame.Model.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Controller\KillFlyGame.Controller.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="MainForm\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="MainForm\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="MainForm\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="MainForm\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -67,7 +81,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="Fonts\BetterVCR.ttf">
+    <None Include="Resources\Fonts\BetterVCR.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Properties\Settings.settings">
@@ -92,10 +106,19 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Resources\Images\background.jpg">
+    <Content Include="Resources\Images\KillFlyGame\background.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\Images\fly.png">
+    <Content Include="Resources\Images\KillFlyGame\fly.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\MainMenu\exitbutton.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\MainMenu\MainMenuBackground.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\MainMenu\startbutton.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\Sounds\flynoice.mp3">
@@ -104,6 +127,7 @@
     <Content Include="Resources\Sounds\hit.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\Sounds\mainmenusong.mp3" />
     <Content Include="Resources\Sounds\miss.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

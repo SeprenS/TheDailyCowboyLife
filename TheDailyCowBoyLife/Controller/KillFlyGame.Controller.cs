@@ -1,4 +1,5 @@
 ﻿using KillFlyGame.Model;
+using KillFlyGame.Observer;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -6,7 +7,7 @@ using TheDailyCowboyLife;
 
 namespace KillFlyGame.Controller
 {
-    public class FlyController
+    public class FlyController : IObserver
     {
         private FlyModel fly;
         private MainForm mainForm;
@@ -19,6 +20,8 @@ namespace KillFlyGame.Controller
         {
             this.fly = fly;
             this.mainForm = form;
+
+            fly.AddObserver(this);
 
             fly.Center = GetRandomPosition();
             fly.Size = 1;
@@ -38,7 +41,7 @@ namespace KillFlyGame.Controller
             gameTimer.Start();
 
             ballTimer = new Timer();
-            ballTimer.Interval = 20;
+            ballTimer.Interval = 30;
             ballTimer.Tick += (s, e) =>
             {
                 if (fly.IsGrowing)
@@ -71,6 +74,12 @@ namespace KillFlyGame.Controller
             };
             ballTimer.Start();
         }
+        
+        
+        public void Update(FlyModel model)
+        {
+            mainForm.Invalidate();
+        }
 
         private Point GetRandomPosition()
         {
@@ -99,11 +108,12 @@ namespace KillFlyGame.Controller
                 fly.Score += mainForm.KillFlyGame.Controller.CalculateScore();
                 fly.Size = 1;
                 fly.Center = mainForm.KillFlyGame.Controller.GetRandomPosition();
-                mainForm.Invalidate();
+                fly.NotifyObservers();
             }
             else
             {
                 mainForm.KillFlyGame.MissSound.Play();
+                fly.Misses++;
                 fly.Score -= 75;
                 if (fly.Score < 0)
                     fly.Score = 0;
